@@ -1,0 +1,24 @@
+# Large binary - do not commit
+WPS_Setup_x64_29158.exe
+*.exe.bak
+
+# REA evidence dumps (large JSON)
+evidence/
+
+# Debug artifacts (screenshots, traces, temp files)
+tools/debug/
+tools/screenshots/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Binary backups
+*.korig
+*.korig2
+
+# Temp files
+*.tmp
+*.log
+nul
+toolsnul
